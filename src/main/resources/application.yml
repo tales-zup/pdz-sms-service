@@ -1,0 +1,19 @@
+cloud:
+  aws:
+    region:
+      static: sa-east-1
+    stack:
+      auto: false
+    credentials:
+      access-key: AKIARDMBTIH6J6PIYJ4Y
+      secret-key: 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
+
+logging:
+  level:
+    com:
+      amazonaws:
+        util:
+          EC2MetadataUtils: error
+
+#server:
+#  port: 8082
